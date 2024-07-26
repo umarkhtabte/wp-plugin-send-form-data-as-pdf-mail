@@ -25,7 +25,7 @@ The plugin allows you to configure the email settings. To access the settings, g
 
 ## Dependencies
 
-- `dompdf` library (included in the plugin)
+- `mpdf` library (included in the plugin)
 - `wp_mail` function (included in WordPress)
 
 ## Composer Dependencies
