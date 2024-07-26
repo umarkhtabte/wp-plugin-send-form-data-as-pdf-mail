@@ -4,7 +4,7 @@ A WordPress plugin that allows you to create a form that generates a PDF from us
 
 ## Description
 
-This plugin provides a convenient way to create a form that collects user data, generates a PDF using the user's details, and sends it via email or allows direct download. It uses the `dompdf` library to generate the PDF and the `wp_mail` function to send the email.
+This plugin provides a convenient way to create a form that collects user data, generates a PDF using the user's details, and sends it via email or allows direct download. It uses the `mpdf` library to generate the PDF and the `wp_mail` function to send the email.
 
 ## Installation
 
@@ -16,7 +16,7 @@ This plugin provides a convenient way to create a form that collects user data, 
 
 1. After activating the plugin, a new menu item will appear under the "Tools" menu in the WordPress admin dashboard.
 2. Click on the "User Form" menu item to access the form creation page.
-3. Fill in the form fields with the user's name, email, and message.
+3. Copy the Form Shortcode `[user-pdf-form]` and add where you want to show form.
 4. Submit the form to generate the PDF and send it via email or allow direct download.
 
 ## Configuration
@@ -25,7 +25,7 @@ The plugin allows you to configure the email settings. To access the settings, g
 
 ## Dependencies
 
-- `dompdf` library (included in the plugin)
+- `mpdf` library (included in the plugin)
 - `wp_mail` function (included in WordPress)
 
 ## Composer Dependencies
