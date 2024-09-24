@@ -4,7 +4,7 @@ A WordPress plugin that allows you to create a form that generates a PDF from us
 
 ## Description
 
-This plugin provides a convenient way to create a form that collects user data, generates a PDF using the user's details, and sends it via email or allows direct download. It uses the `mpdf` library to generate the PDF and the `wp_mail` function to send the email.
+This plugin provides a convenient way to create a form that collects user data, generates a PDF using the user's details, and sends it via email or allows direct download. It uses the `mpdf` library to generate the PDF and the `wp_mail` function to send the email. 
 
 ## Installation
 
