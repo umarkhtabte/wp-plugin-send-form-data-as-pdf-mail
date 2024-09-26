@@ -32,7 +32,7 @@ The plugin allows you to configure the email settings. To access the settings, g
 
 - `mpdf/mpdf` library (installed via Composer)
 
-To install the `mpdf/mpdf` library using Composer, run the following command in the root directory of your plugin:
+To install the `mpdf/mpdf` library using Composer, run the following command in the root directory of your plugin: 
 
 ## License
 
