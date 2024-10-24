@@ -11,11 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-// Include main classes
+// Include main classes on Plugin Activation
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-user-pdf-form.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-user-pdf-form-settings.php';
 
-// Initialize the plugin
+// Initialize the plugin on Activation of Plugin
 function upf_init() {
     User_PDF_Form::init();
     User_PDF_Form_Settings::init();
