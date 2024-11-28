@@ -4,6 +4,7 @@ Plugin Name: User Form data in PDF Send Email or Download
 Description: A plugin to create a form that generates a PDF from user details and sends it via email or allows direct download.
 Version: 1.0
 Author: Umar Khtab
+Author URI: https://umarkhtab.wuaze.com/
 */
 
 // Prevent direct access
